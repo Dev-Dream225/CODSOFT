@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #fdfdff;
+    background: #a6a6da;
     margin: 0;
 }
 
@@ -31,8 +31,8 @@ main {
 }
 
 #social-media i {
-    color: #7fdbbb;
-    border: 0.2rem solid #7fdbbb;
+    color: #ad3d6c;
+    border: 0.2rem solid #c04977;
     padding: 0.3rem; 
     border-radius: 2rem; 
     list-style-type: none;
@@ -40,6 +40,19 @@ main {
 
 .header-image {
     height: 80vh; 
+}
+.header-image {
+    max-width: 100%;
+    height: auto;
+    clip-path: polygon(0% 0%, 100% 15%, 100% 85%, 0% 100%);
+}
+.zigzag-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent 15px, white 15px, white 30px, transparent 30px);
 }
 
 #content {
@@ -81,7 +94,7 @@ main {
 }
 
 #navmenu li a:hover {
-    color: #7fdbbb;
+    color: #c2568a;
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s;
@@ -115,9 +128,9 @@ h2 {
 }
 
 button {
-    background-color: #7fdbbb;
+    background-color: #c856bd;
     padding: 0.3rem 1rem; 
-    border: 0.1rem solid #7fdbbb;
+    border: 0.1rem solid#c856bd ;
     border-radius: 2rem; 
     font-family: "Poppins", sans-serif;
     font-size: 1rem; 
@@ -127,7 +140,7 @@ button {
 }
 
 button:hover {
-    background-color: #50b893;
+    background-color: #842c70;
     cursor: pointer;
     color: white;
     transition: 0.5s;
@@ -159,7 +172,7 @@ button:hover {
 #phone span {
     font-size: 1.9rem;
     font-weight: 600;
-    color: #7fdbbb;
+    color: #bd2d37;
     letter-spacing: 0.2rem;
 }
 
